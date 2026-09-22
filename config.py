@@ -2,6 +2,12 @@
 
 # data
 DATA_CACHE_DIR = "data_cache"
+START_DATE = "2018-01-01"
+END_DATE = "2023-12-31"
+
+# first candidate pair: both large-cap non-alcoholic beverage companies,
+# same sector/demand drivers -> classic textbook pairs-trading candidate
+FIRST_PAIR = ("KO", "PEP")
 
 # pair selection
 COINTEGRATION_PVALUE_THRESHOLD = 0.05
