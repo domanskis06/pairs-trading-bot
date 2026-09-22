@@ -1,0 +1,29 @@
+# venv
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# env / secrets
+.env
+.env.*
+!.env.example
+
+# downloaded market data / logs (data/ itself is source code, not data)
+data_cache/
+*.csv
+*.parquet
+*.log
+logs/
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
